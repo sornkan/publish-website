@@ -27,9 +27,9 @@ description: Publish or host a static website from a zip with SORNKan MCP at pub
 ## ติดตั้ง MCP ถ้ายังไม่มี
 
 ```
-claude mcp add --transport http publish https://publish.sornkan.com/mcp
-grok mcp add --transport http publish https://publish.sornkan.com/mcp
-openclaw mcp add publish --url https://publish.sornkan.com/mcp --transport streamable-http
+claude mcp add --transport http sornkan-publish https://publish.sornkan.com/mcp
+grok mcp add --transport http sornkan-publish https://publish.sornkan.com/mcp
+openclaw mcp add sornkan-publish --url https://publish.sornkan.com/mcp --transport streamable-http
 ```
 
 หรือ `npx skills add sornkan/publish-website`
